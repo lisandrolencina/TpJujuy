@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="icon" href="imagenes/icon.png">
+		<script src="../recursos/jquery.min.js"></script>
+    <script src="../recursos/cycle2/jquery.cycle2.min.js"></script>
+    <script src="../plugins/jquery.cycle2.flip.min.js"></script>
+	<script >
+	$('document').ready(function ($) {
+		  $('.fotos-generales').cycle( {
+				  fx: 'flip',
+				  reverse: true,
+				  speed:3000,
+				  timeout:1000,
+				  tileCount:50,
+				  next: '#next',
+				  prev: '#prev'
+			  } );
+		  });
+	  </script>
+    <title>Turismo</title>
+  </head>
+  <body>
+     <!-- comienzo del header -->
+  <header>
+    <!-- titulo principal -->
+    	<nav id="menu-principal">
+    	<ul>
+    		<li> <a href="../index.html">Inicio </a></li>
+    		<li><a href="turismo.html">Turismo </a></li>
+    		<li><a href="../noticias-contacto/noticias.html"> Noticias </a></li>
+    		<li><a href="../noticias-contacto/contacto.html"> Contacto </a></li>
+    	</ul>
+    	</nav>
+
+    	 <h1> Turismo! </h1>
+
+    	 <iframe width="560" height="315" src="https://www.youtube.com/embed/xjIiXaXNUjY"></iframe>
+        <!-- lista de arriba -->
+      <nav class = "lista" >
+      <ul>
+        <li><a href="#Lapuna"> La puna </a></li>
+        <li><a href="#salinas"> Salinas Grandes </a></li>
+        <li><a href="#Valles"> valles </a></li>
+        <li><a href="#Yungas"> Yungas </a></li>
+        <li><a href="#Tilcara">Tilcara</a></li>
+      </ul>
+      </nav>
+          <!-- fin del header -->
+  </header>
+  <main>
+ <p class="top">
+ 	Top de Mejores Lugares para Visitar San Salvador de Jujuy
+ </p>
+
+  <!-- INFORMACION DE PUNA -->
+    <article id ="Lapuna">
+  	<div class="contenedor-puna">
+  	<div class="contenedor-puna-1">
+  		<a name="lapuna"></a>
+  				<h2> 1. La Puna </h2>
+  			<p> La Puna :es esplendor, cielos infinitos de aire puro y extensas planicies de altura a más de 3600 msnm, donde habita gente tranquila y apacible que resguarda sus costumbres ancestrales. Es territorio de llamas, guanacos y vicuñas que se avistan desde las rutas.
+  				<em>La inmensidad y el esplendor se conjugan con el diáfano cielo y el aire puro.</em> La Puna ofrece hermosos paisajes de salinas, estepas, planicies altiplánicas y lagunas rodeadas por montañas, como la de Pozuelos, situada a 3.600 m.s.n.m. Esta laguna fue declarada Reserva de la Biosfera y su principal tesoro está formado por la gran cantidad de aves que habitan en su entorno. Entre su avifauna se cuentan tres diferentes especies de flamencos y parinas. La soledad y la aridez de este desierto de altura se interrumpe de tanto en tanto con pequeños oasis que matizan, con su diversidad biológica, la monotonía del paisaje.
+
+					Subiendo por la Cuesta de Lipán, sucesivas curvas van abriendo camino a <abbr>un paisaje de belleza incomparable,</abbr> hasta alcanzar las Salinas Grandes, deslumbrante manto blanco que ofrece un panorama pleno de magia y de color.
+  				</p>
+  	</div>
+  	<div id="slidershow" class = "fotos-generales">
+  		<img src="imagenes/puna1.jpg" alt="Lapuna" class="contenedor-puna-img"/>
+		<img src="imagenes/puna2.jpg" alt="Lapuna" class="contenedor-puna-img"/>
+  	</div>
+  	</div>
+    </article>
+
+
+  <!-- FIN DE INFORMACION DE PUNA -->
+
+<!-- INICIO DE INFORMACION DE SALINAS GRANDES -->
+<article id="salinas">
+	<div class="contenedor-salinas">
+	<div class="contenedor-salinas-1">
+					<h2>2. Salinas Grandes</h2>
+				<a name="salinas"></a>
+			<p>
+				<em><span class = "destacado">Las Salinas Grandes son las terceras más grandes del mundo después del Salar de Uyuni en Bolivia y el Salar de Arizaro en Salta.</span></em>
+				Estas salinas brindan un espectáculo visual único en temporadas de lluvias ya que se cubren por 30 <abbr title="centimetros">cm.</abbr>
+				El agua producía una vista panorámica de color turquesa, con la vista de los nevados Chañi al fondo y el recorrido por ellos. Ubicados entre las fronteras de  Jujuy y Salta en el norte, son una de las marismas más grandes del país. Extraído de esta enorme llanura de sal de manera tradicional, presenta el hermoso y único paisaje del panda gigante de Jujuy. Son las más grandes de la provincia y cubren áreas importantes (525 kilómetros cuadrados) en las provincias de Tombaya y Kochinoka y la provincia de Salta. Luego de pasar las Carreteras Nacionales 9 y 52, se puede llegar a Salinas Grandes desde San Salvador de Jujuy. Están ubicados a una altitud de 3.350 metros. La sal es de <abbr title="centimetros">10 a 50 cm.</abbr> espesor de. Originalmente eran una laguna con un fondo plano del pantano, rodeada de microorganismos benéficos y plantas acuáticas
+			</p>
+	</div>
+	<div class = "fotos-generales" > <img src="imagenes/sales.jpg" alt="salinas grandes" class="contenedor-salinas-img"/>
+		<img src="imagenes/salinas2.jpg" alt="salinas grandes" class="contenedor-salinas-img"/>
+	</div>
+	</div>
+</article>
+<!-- FIN DE INFORMACION DE SALINAS GRANDES -->
+
+<!-- INFORMACION DE VALLES -->
+<article id="valles">
+	<div class="contenedor-valles">
+	<div class="contenedor-valles-1">
+			<a name="Valles"></a>
+			<h2> 3. Valles</h2>
+			<p> <abbr>La zona de los valles ocupa la región centro-sur de la provincia, donde se desperdigan lugares de ensueño con paisajes espectaculares y un clima de temperatura media</abbr>, que la convierten en una zona de estación primaveral durante casi todo el año.
+			Desde los distintos miradores, como el de Alto la Viña o el del Cristo de la Hermandad, ubicado en el cerro Las Rosas, se puede contemplar la belleza extraordinaria San Salvador de Jujuy.<em> La ciudad misma muestra profundos contrastes entre estilos coloniales y modernos dispersados en las calles angostas</em>, que relatan la historia de un pueblo pujante, alberga numerosos edificios históricos, que constituyen el testimonio viviente de un pasado glorioso: la Iglesia Catedral, con su púlpito laminado en oro; la Casa de Gobierno, custodio de la Bandera legada por el Gral. Manuel Belgrano en la gesta patriótica del Éxodo Jujeño; el Cabildo; los Museos Histórico y Arqueológico y la Iglesia San Francisco, son algunos testigos de la identidad jujeña.</p>
+	</div>
+	<div class = "fotos-generales" >
+		<img src="imagenes/valles.jpg" alt="valles" class="contenedor-valles-img"/>
+		<img src="imagenes/valles2.jpg" alt="valles" class="contenedor-valles-img"/>
+	</div>
+	</div>
+  </article>
+<!-- FIN INFORMACION DE VALLES -->
+
+<!-- INFORMACION DE YUNGAS -->
+<article id="Yunas">
+	<div class="contenedor-yunas">
+	<div class="contenedor-yunas-1">
+			<a name="Yungas"></a>
+			<h2> 4. Yungas</h2>
+			<p><em>La Ruta Nacional Nº 34 nos conduce a las Yungas jujeñas, espacio de contrastes y leyendas.</em> Dueñas de una amplia gama de microclimas y de variados y diferentes pisos de vegetación, conforman un ambiente único en el bioclima de Jujuy.
+			<strong>Su principal referente, el Parque Nacional Calilegua, con sus 76.306 has.</strong> de nuboselva, es uno de los ambientes protegidos de mayor biodiversidad del norte argentino, conjuntamente con la Reserva Provincial Las Lancitas. Algunas especies animales preservadas y en serio peligro de extinción, como el yaguareté, el huemul y el lobito de río, se mezclan entre la frondosa majestuosidad de su vegetación con una gran variedad de especies arbóreas (cedro, tipa, cebil, palo amarillo, etc.) que invita al misterio y al asombro.
+
+			<abbr>Después de atravesar el Parque Nacional Calilegua por la Ruta Provincial N° 83 </abbr>,  se arriba a los pueblos de San Francisco, Pampichuela, Valle Grande, Valle Colorado y Santa Ana, que tienen un gran potencial turístico y que son dignos de ser 	visitados.
+
+			</p>
+	</div>
+	<div class = "fotos-generales"> <img src="imagenes/yumgas.jpg" alt="yungas" class="contenedor-yunas-img"/>
+		<img src="imagenes/yumgas2.jpg" alt="yungas" class="contenedor-yunas-img"/>
+	</div>
+	</div>
+  </article>
+<!--FIN INFORMACION DE YUNGAS -->
+<!--INICIO DE Tilcara -->
+<article id="Tilcara">
+	<div class="contenedor-yunas">
+	<div class="contenedor-yunas-1">
+			<a name="Tilcara"></a>
+			<h2>5. Tilcara</h2>
+			<p>
+			<em>Tilcara está ubicada junto al río Grande, en la Quebrada de Humahuaca, provincia de Jujuy. Su arquitectura nos recuerda la época de la Colonia.</em>
+
+			<abbr>Su nombre proviene de los indígenas omaguacas que habitaron esas tierras hace más de 900 años:</abbr> los tilcara, que montaron un pucará (fortaleza en idioma quechua), que hoy conforma su atracción principal. Estos primeros pobladores se dedicaban a la agricultura, y eran expertos tejedores y alfareros. Se la denomina "capital arqueológica de la provincia de Jujuy" debido a que cuenta con el Pucará (sitio arqueológico considerado como el más importante de las antiguas poblaciones de la región).
+
+			</p>
+	</div>
+	<div class = "fotos-generales"> <img src="imagenes/tilcara.jpg" alt="tilcara" class="contenedor-yunas-img"/>
+		<img src="imagenes/tilcara2.jpg" alt="tilcara" class="contenedor-yunas-img"/>
+	</div>
+	</div>
+  </article>
+  </main>
+<!--FIN INFORMACION DE TILCARA -->
+
+<footer>
+<ul>
+	<li>Derechos reservados &copy; 2021</li>
+	<li>Maquetadores: Lisandro Lencina | Francisco Vola </li>
+	<li>Materia: Maquetado y Desarrollo Web</li>
+	<li>Docente a cargo: Mabel García</li>
+	<li>TP #2 – Sitio web Ciudad </li>
+</ul>
+</footer>
+</body>
+</html>

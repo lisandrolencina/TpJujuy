@@ -1,0 +1,389 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  background-size: cover;
+}
+
+header{
+  background-image: url(../imagenes/logomontanias.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  height: 200px;
+}
+.menu  ul{
+  text-align: center;
+  list-style-type: none;
+  font-size:25px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top:170px;
+
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 40px;
+}
+
+.menu ul li a{
+  color: #444443;
+  text-decoration: none;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #FFFFAF;
+
+}
+.titulo-principal{
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.titulo-principal h1{
+  color:#EF7F1A;
+}
+.titulo-principal h2{
+  font-style: italic;
+  height: 80px;
+}
+.noticia_principal h2{
+  text-align: center;
+  margin: 20px;
+}
+.noticia_principal h2 span{
+  color: red;
+}
+.columna2 p{
+  width: 500px;
+  text-align: center;
+  padding: 15px 500px;
+  margin: 0 120px;
+  font-size: 25px;
+}
+.noticia_uno img{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  display: flex;
+}
+.otras-noticias{
+  font-family: 'open sans';
+}
+.otras-noticias h2{
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  font-weight: 300;
+}
+.linea{
+  border-top: 5px solid #0077C0;
+  margin-bottom: 40px;
+}
+.contenedor-imagen{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+.contenedor-imagen .imagen{
+  width: 32%;
+  position: relative;
+  height: 250px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+}
+.imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay1{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay1 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay1 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay1{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay2 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay2 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay2{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay3 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay3{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay3 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay3{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay4 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay4{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay4 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay4{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay5 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay5 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay5{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay6 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay6{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay6 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay6{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay7 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay7{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay7 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay7{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay8 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay8{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay8 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay8{
+  height: 100%;
+  cursor: pointer;
+}
+.overlay9 span{
+  font-family: sans-serif;
+  color: #000000;
+}
+.overlay9{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:#EF7F1A;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.overlay9 h2{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 30px;
+  padding: 20px 0;
+  margin: -3px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.imagen:hover .overlay9{
+  height: 100%;
+  cursor: pointer;
+}
+footer{
+	max-height: 1000px;
+	min-height: 130px;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	color: white;
+	position: relative;
+	padding: 30px;
+	font-size: 25px;
+}
+footer ul {
+	list-style-type: none;
+}

@@ -1,0 +1,89 @@
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: tomato;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+  background-image: url(../imagenes/logomontanias.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+.container{
+  margin: auto;
+  margin-top: 50px;
+  width: 960px;
+  height: 800px;
+
+}
+.menu  ul{
+  text-align: center;
+  list-style-type: none;
+  font-size:25px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 180px;
+
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 40px;
+}
+
+.menu ul li a{
+  color: #444443;
+  text-decoration: none;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #FFFFAF;
+
+}
+
+ h1{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration-style: solid;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  position: relative;
+  top: 50px;
+}
+
+footer{
+	max-height: 1000px;
+	min-height: 130px;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	color: white;
+	position: relative;
+	padding: 30px;
+	font-size: 25px;
+}
+footer ul {
+	list-style-type: none;
+}
+.personales{
+  margin: auto;
+  width:400px;
+  background: #3B3B5B;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 25px;
+}

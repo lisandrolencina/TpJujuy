@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="icon" href="imagenes/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <div class="contenedor">
+    <script>
+    alert('gracias por entrar :)');
+    </script>
+    <header>
+      <nav class = "menu">
+        <ul>
+          <li> <a href="../index.html">Inicio </a></li>
+        <li><a href="../Turismo/turismo.html">Turismo </a></li>
+        <li><a href="noticias.html"> Noticias </a></li>
+        <li><a href="contacto.html"> Contacto </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Contactanos para Viajar!</h1>
+      <div class="formulario">
+        <form action="http://recursos.grodriguez.com.ar/FORM/" method="post">
+        <div class="personales">
+        <fieldset>
+          <legend>Ingresa tus datos personales</legend>
+          <p>Ingresa tu nombre COMPLETO</p>
+          <input type="text" name="nombre" placeholder="Aca pone tu nombre" required/>
+          <p>Danos tu numero de telefono</p>
+          <input type="number" name="numero">
+          <p>Ingresa tu correo</p>
+          <input type="email" name="correo" placeholder="Con un @ por favor!" required/>
+          <p>Ingresa tu contraseña</p>
+          <input type="password" name="contrasenia" placeholder="Ingresa una clave" required/>
+        </fieldset>
+        <p>Seleccione su genero</p>
+        <label for="hombre">
+        <input type="radio" name="genero" required id="hombre" value="hombrecito"/>
+        Hombre
+        </label>
+        <label for="mujer">
+        <input type="radio" name="genero" required id="mujer" value="mujercita"/>
+        Mujer
+        </label>
+        <label for="otro">
+        <input type="radio" name="genero" required id="otro" value="generoaparte"/>
+        Otro
+        </label>
+        <p>Que lugar le gustaria visitar?</p>
+        <select name="seleccion-jujuy">
+        <option value="humaguaca">Quebrada de Humaguaca </option>
+        <option value="salinas">Salinas Grandes</option>
+        <option value="cuevas">Cuevas del Wayra</option>
+        <option value="serranias">Serranías del Hornocal</option>
+        <option value="rio">Termas del Río Jordán</option>
+        </select>
+        <p>Cuando venis a Jujuy?</p>
+        <input type="date" name="fecha" required/>
+        <p>Dejanos tu comentario :)</p>
+        <textarea name="textito" rows="8" cols="50"></textarea>
+
+        <p>Que sentiste al visitar la pagina?</p>
+        <label for="mejor">
+        <input type="checkbox" name="alegria" id="mejor" value="lomejor"/>
+          Alegria
+        </label>
+        <label for="wow">
+        <input type="checkbox" name="sorpresa" id="wow" value="sorprendido"/>
+        Sorpresa
+          </label>
+          <label for="masomenos">
+        <input type="checkbox" name="puedesermejor" id="masomenos" value="puedemejorar"/>
+        Pueden mejorar!
+          </label>
+          <label for="nobueno">
+        <input type="checkbox" name="disconforme" id="nobueno" value="disconformidad"/>
+        Disconformidad
+          </label>
+          <label for="descubrimiento">
+        <input type="checkbox" name="descubrir" id="descubrimiento" value="descubrio"/>
+        Descubrimiento
+          </label>
+        <div class="botonera">
+          <input type="submit" name="enviar"/>
+          <input type="reset" name="resetear"/>
+        </div>
+        </div>
+        </form>
+      </div>
+    </main>
+   <footer>
+<ul>
+  <li>Derechos reservados &copy; 2021</li>
+  <li>Maquetadores: Lisandro Lencina | Francisco Vola </li>
+  <li>Materia: Maquetado y Desarrollo Web</li>
+  <li>Docente a cargo: Mabel García</li>
+  <li>TP #2 – Sitio web Ciudad </li>
+</ul>
+</footer>
+  </div>
+  </body>
+</html>
